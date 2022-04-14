@@ -19,4 +19,4 @@ print(rawJson)
 # repos = json.loads(rawJson)
 
 # for repo in repos:
-#    print(repo["name"])
+#     print(repo["full_name"])
