@@ -2,7 +2,7 @@
 
 This script can be used to pull repo information from the GH API. There are two ways to use it:
 
-### With Search Criteria
+### With Search Criteria (for name only)
 
 `python main.py <search-term>`
 
