@@ -1,6 +1,13 @@
 # GH Repos
 
+#### NOTE
+You must have the GH CLI installed and configured for this script to work correctly. Find the documentation on it here: https://github.com/cli/cli
+
+
+## Description
 This script can be used to pull repo information from the GH API. There are two ways to use it:
+
+## Usage
 
 ### With Search Criteria (for name only)
 
@@ -12,7 +19,9 @@ Example: `python main.py collector`
 
 `python main.py`
 
-### Results
+## Results
+
+### Currently Available Fields
 
 Currently, this script is set up to retrieve the full name of the repo, the description (if applicaple), and the URL to the repo. If any additional information is required, please reach out to the developer to request additional fields. The list of available fields can be seen below in the `Additional Available Fields` section.
 
